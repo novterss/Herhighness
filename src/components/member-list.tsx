@@ -18,18 +18,21 @@ const initialMembers: Member[] = [
         name: "Theboss Herhighnvss",
         role: "Leader",
         linkUrl: "https://www.facebook.com/herhighnvsscore",
+        avatarUrl: "/assets/theboss.jpg",
     },
     {
         id: "2",
         name: "Kaning Herhighnvss",
         role: "Co-Leader",
         linkUrl: "https://www.facebook.com/novmintt.novmintt",
+        avatarUrl: "/assets/kaning.jpg",
     },
     {
         id: "3",
         name: "Aungkan Herhighnvss",
         role: "Co-Leader",
-        linkUrl: "https://www.facebook.com/ngx.ng.ng.khx.l.li.wi.b.wab",
+        linkUrl: "https://www.facebook.com/ngx.ng.ng.ng.khx.l.li.wi.b.wab",
+        avatarUrl: "/assets/Aungkan.jpg",
     },
 
 ];
@@ -80,7 +83,7 @@ export function MemberList() {
             <div className="space-y-3">
                 <AnimatePresence mode="popLayout">
                     {currentMembers.map((member, index) => {
-                        const isLeader = member.role === "Leader" || member.name.includes("Theboss") || member.name.includes("Kaning");
+                        const isLeader = member.role === "Leader";
                         const isOnline = ["Theboss", "Kaning", "Aungkan"].some(key => member.name.includes(key));
 
                         return (
@@ -104,7 +107,7 @@ export function MemberList() {
                     w-12 h-12 rounded-full overflow-hidden shrink-0 border-2 relative
                     ${isLeader ? "border-red-500 shadow-[0_0_10px_rgba(220,38,38,0.5)]" : "border-slate-700 bg-slate-800"}
                 `}>
-                                        <img src="/assets/per.png" alt={member.name} className="w-full h-full object-cover" />
+                                        <img src={member.avatarUrl || "/assets/per.png"} alt={member.name} className="w-full h-full object-cover" />
                                         {/* Status Indicator - Keeping Green for Online semantics + Blinking */}
                                         {isOnline && (
                                             <div className="absolute bottom-1 right-1 w-2.5 h-2.5 bg-green-500 rounded-full border border-black shadow-[0_0_5px_rgba(34,197,94,1)] z-10 animate-[pulse_1.5s_ease-in-out_infinite]" title="Online"></div>
