@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-kanit);
+  --font-mono: var(--font-orbitron);
+}
+
+:root {
+  --background: #050505;
+  /* Extra Dark - Approach Black */
+  --foreground: #e2e8f0;
+  /* Slate 200 */
+
+  --primary: #4ade80;
+  /* Green 400 (Matching logo description) */
+  --primary-foreground: #020617;
+
+  --secondary: #0f172a;
+  /* Slate 900 */
+  --secondary-foreground: #f8fafc;
+
+  --muted: #0f172a;
+  --muted-foreground: #64748b;
+
+  --card: #0a0a0a;
+  /* Almost Black */
+  --card-foreground: #e2e8f0;
+
+  --border: #1e293b;
+  /* Slate 800 */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: transparent;
+  /* Handled by StarBackground */
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Vignette */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.8) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Scanlines */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+  z-index: 2;
+  opacity: 0.6;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+  /* Slate 900 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dc2626;
+  /* Red 600 */
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b91c1c;
+  /* Red 700 */
+}
