@@ -31,13 +31,7 @@ const initialMembers: Member[] = [
         role: "Co-Leader",
         linkUrl: "https://www.facebook.com/ngx.ng.ng.khx.l.li.wi.b.wab",
     },
-    // Dummy data
-    ...Array.from({ length: 4 }).map((_, i) => ({
-        id: `mem-${i + 4}`,
-        name: `Member ${i + 1} Herhighness`,
-        role: "Member",
-        linkUrl: "https://www.facebook.com/profile.php?id=1000",
-    }))
+
 ];
 
 export function MemberList() {
