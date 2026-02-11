@@ -46,12 +46,6 @@ npm run dev
 
 
 
-## 📂 Data Structure
-
-The member and partner data are managed within the project's component architecture, allowing for easy updates to the roster and partner list.
-
----
-
 <p align="center">
 Maintained by <a href="https://www.google.com/search?q=https://github.com/novterss">novterss</a> | Part of <b>EzplaystoreTh</b>
 </p>
