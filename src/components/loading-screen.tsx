@@ -9,7 +9,7 @@ export function LoadingScreen() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsLoading(false);
-        }, 2500); // 2.5s Loading time
+        }, 2500); 
         return () => clearTimeout(timer);
     }, []);
 
@@ -23,7 +23,6 @@ export function LoadingScreen() {
                     className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 backdrop-blur-sm"
                 >
                     <div className="relative flex flex-col items-center">
-                        {/* Pulsing Logo */}
                         <motion.div
                             animate={{
                                 scale: [1, 1.05, 1],
