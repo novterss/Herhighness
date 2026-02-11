@@ -1,36 +1,64 @@
-# 👑 Herhighness 
+# 👑 Herhighness - Member Directory
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=auto&height=200&section=header&text=HERHIGHNESS&fontSize=80&animation=fadeIn" alt="Header" />
+  <img src="https://capsule-render.vercel.app/render?type=soft&color=eb4034&height=200&section=header&text=HERHIGHNESS&fontSize=80&animation=fadeIn&fontAlignY=35" alt="Herhighness Header" />
 </p>
 
 <p align="center">
   <a href="https://herhighness.vercel.app/">
-    <img src="https://img.shields.io/badge/Live_Demo-Visit_Site-green?style=for-the-badge&logo=vercel" alt="Live Demo" />
+    <img src="https://img.shields.io/badge/Live_Site-Visit_Now-red?style=for-the-badge&logo=vercel" alt="Live Demo" />
   </a>
   <img src="https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=nextdotjs" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
 </p>
 
 ---
 
-## ⚡ Overview
-**Herhighness** คือแพลตฟอร์มที่สร้างขึ้นด้วยเทคโนโลยีล่าสุดอย่าง **Next.js 15 (Turbopack)** และ **Tailwind CSS v4** เพื่อมอบประสบการณ์การใช้งานที่ลื่นไหล รวดเร็ว และดีไซน์ที่ดุดันในสไตล์ Dark Mode
+## 📋 Overview
+A dedicated **Member Directory and Alliance Portal** for the Herhighness gang. This web application serves as a central hub to verify official members, leaders, and strategic partners in a sleek, organized interface.
 
-## ✨ Features
-* 🚀 **Performance:** Build ด้วย Turbopack รวดเร็วกว่าเดิมหลายเท่า
-* 🎨 **Modern Design:** ใช้ระบบ Theme ใหม่จาก Tailwind CSS v4
-* 📱 **Responsive:** รองรับทุกหน้าจอไม่ว่าจะเป็น PC, Tablet หรือ Mobile
-* 🌑 **Atmospheric UI:** ดีไซน์เน้นความเข้มข้นด้วย Gradient และ Scanline effects
+## 💎 Features
+* 🔍 **Member Search:** Easily find specific members within the organization.
+* 🤝 **Partnership Portal:** View official alliances and partner organizations.
+* 📱 **Mobile Ready:** Check the roster on the go with a fully responsive mobile design.
 
 ## 🛠️ Tech Stack
-| Core | UI/Styling | Deployment |
-| :--- | :--- | :--- |
-| **Next.js 15** | **Tailwind CSS v4** | **Vercel** |
-| **React 19** | **Lucide Icons** | **GitHub Actions** |
+* **Framework:** Next.js 15 (App Router)
+* **Styling:** Tailwind CSS v4
+* **Deployment:** Vercel
 
-## 🚀 Getting Started
+## 🚀 Installation & Local Setup
 
-1. **Clone the project**
+1. **Clone the repository**
    ```bash
    git clone [https://github.com/novterss/Herhighness.git](https://github.com/novterss/Herhighness.git)
+
+```
+
+2. **Install dependencies**
+```bash
+npm install
+
+```
+
+
+3. **Run for development**
+```bash
+npm run dev
+
+```
+
+
+
+## 📂 Data Structure
+
+The member and partner data are managed within the project's component architecture, allowing for easy updates to the roster and partner list.
+
+---
+
+<p align="center">
+Maintained by <a href="https://www.google.com/search?q=https://github.com/novterss">novterss</a> | Part of <b>EzplaystoreTh</b>
+</p>
+
+```
+
