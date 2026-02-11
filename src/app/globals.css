@@ -47,7 +47,7 @@ body {
   background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.8) 100%);
   pointer-events: none;
   z-index: 1;
-}
+
 
 body::after {
   content: "";
