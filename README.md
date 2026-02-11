@@ -1,10 +1,6 @@
 # 👑 Herhighness - Member Directory
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=eb4034&height=200&section=header&text=HERHIGHNESS&fontSize=80&animation=fadeIn&fontAlignY=35" alt="Herhighness Header" />
-</p>
-
-<p align="center">
   <a href="https://herhighness.vercel.app/">
     <img src="https://img.shields.io/badge/Live_Site-Visit_Now-red?style=for-the-badge&logo=vercel" alt="Live Demo" />
   </a>
