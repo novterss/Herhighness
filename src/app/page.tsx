@@ -15,12 +15,12 @@ export default function Home() {
       <LoadingScreen />
 
 
-      {/* Background Decorative */}
+      
       <div className="fixed inset-0 pointer-events-none z-0 opacity-10">
         <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-red-900 to-transparent opacity-50" />
       </div>
 
-      {/* Header / Logo */}
+      
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -31,7 +31,7 @@ export default function Home() {
         </h1>
       </motion.div>
 
-      {/* Navigation Tabs */}
+      
       <div className="z-10 mb-12 flex flex-wrap justify-center gap-4">
         <button
           className="relative px-10 py-3 rounded-full font-bold text-sm uppercase tracking-wider transition-all bg-red-600 text-slate-100 shadow-[0_0_20px_rgba(220,38,38,0.4)]"
@@ -53,7 +53,7 @@ export default function Home() {
         </Link>
       </div>
 
-      {/* Content Area - Only Members here */}
+      
       <div className="w-full max-w-4xl z-10 px-4">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
