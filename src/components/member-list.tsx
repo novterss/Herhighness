@@ -41,6 +41,13 @@ const initialMembers: Member[] = [
         linkUrl: "https://www.facebook.com/ngx.ng.ng.ng.khx.l.li.wi.b.wab",
         avatarUrl: "/assets/Aungkan.jpg",
     },
+    {
+        id: "5",
+        name: "Pnixe Herhighnvss",
+        role: "Member",
+        linkUrl: "https://www.facebook.com/profile.php?id=61578183644817",
+        avatarUrl: "/assets/pnixe.jpg",
+    },
 
 ];
 
