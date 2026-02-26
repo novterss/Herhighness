@@ -8,12 +8,10 @@ import Link from "next/link";
 export default function PartnersPage() {
     return (
         <main className="min-h-screen bg-background relative flex flex-col items-center py-20 font-sans selection:bg-green-900 selection:text-white pb-32">
-            {/* Background Decorative */}
             <div className="fixed inset-0 pointer-events-none z-0 opacity-10">
                 <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-green-900 to-transparent opacity-50" />
             </div>
 
-            {/* Header */}
             <motion.div
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -30,7 +28,6 @@ export default function PartnersPage() {
                 </p>
             </motion.div>
 
-            {/* Navigation Tabs (Active Partner) */}
             <div className="z-10 mb-12 flex flex-wrap justify-center gap-4">
                 <Link
                     href="/"
@@ -52,7 +49,6 @@ export default function PartnersPage() {
                 </button>
             </div>
 
-            {/* Partner List */}
             <div className="w-full max-w-3xl z-10 px-4">
                 <motion.div
                     initial={{ opacity: 0, y: 10 }}

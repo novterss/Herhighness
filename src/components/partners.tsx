@@ -13,7 +13,6 @@ const partners = [
 export function Partners() {
     return (
         <section id="partners" className="py-20 bg-background relative overflow-hidden">
-            {/* Background Overlay */}
             <div className="absolute inset-0 bg-primary/5 pointer-events-none" />
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

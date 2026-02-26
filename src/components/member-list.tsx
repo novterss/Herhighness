@@ -9,7 +9,7 @@ interface Member {
     name: string;
     role: string;
     linkUrl: string;
-    avatarUrl?: string; // Optional now as we use static
+    avatarUrl?: string; 
 }
 
 const initialMembers: Member[] = [
@@ -66,10 +66,8 @@ export function MemberList() {
     return (
         <div className="max-w-3xl mx-auto px-4 w-full relative">
             <div className="flex justify-end items-end mb-4">
-                {/* Strength Counter Removed as requested */}
             </div>
 
-            {/* Search Bar */}
             <div className="relative mb-8">
                 <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                     <Search className="h-5 w-5 text-gray-400" />
@@ -86,7 +84,6 @@ export function MemberList() {
                 />
             </div>
 
-            {/* Member List */}
             <div className="space-y-3">
                 <AnimatePresence mode="popLayout">
                     {currentMembers.map((member, index) => {
@@ -115,7 +112,6 @@ export function MemberList() {
                     ${isLeader ? "border-red-500 shadow-[0_0_10px_rgba(220,38,38,0.5)]" : "border-slate-700 bg-slate-800"}
                 `}>
                                         <img src={member.avatarUrl || "/assets/per.png"} alt={member.name} className="w-full h-full object-cover" />
-                                        {/* Status Indicator - Keeping Green for Online semantics + Blinking */}
                                         {isOnline && (
                                             <div className="absolute bottom-1 right-1 w-2.5 h-2.5 bg-green-500 rounded-full border border-black shadow-[0_0_5px_rgba(34,197,94,1)] z-10 animate-[pulse_1.5s_ease-in-out_infinite]" title="Online"></div>
                                         )}
@@ -157,7 +153,6 @@ export function MemberList() {
                 )}
             </div>
 
-            {/* Pagination */}
             {totalPages > 1 && (
                 <div className="flex justify-center items-center space-x-4 mt-8">
                     <button

@@ -6,7 +6,6 @@ import { ArrowRight } from "lucide-react";
 export function Hero() {
     return (
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-            {/* Background Effects */}
             <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-gradient-to-b from-primary/10 to-background" />
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/20 hover:bg-primary/30 blur-[100px] rounded-full transition-colors duration-700" />
