@@ -9,7 +9,7 @@ interface Member {
     name: string;
     role: string;
     linkUrl: string;
-    avatarUrl?: string; 
+    avatarUrl?: string;
 }
 
 const initialMembers: Member[] = [
@@ -29,17 +29,17 @@ const initialMembers: Member[] = [
     },
     {
         id: "3",
-        name: "Aungkan Herhighnvss",
-        role: "Co-Leader",
-        linkUrl: "https://www.facebook.com/ngx.ng.ng.ng.khx.l.li.wi.b.wab",
-        avatarUrl: "/assets/Aungkan.jpg",
-    },
-    {
-        id: "4",
         name: "Gapgun Herhighnvss",
         role: "Member",
         linkUrl: "https://www.facebook.com/gapgunx",
         avatarUrl: "/assets/gapgun.jpg",
+    },
+    {
+        id: "4",
+        name: "Aungkan Herhighnvss",
+        role: "Co-Leader",
+        linkUrl: "https://www.facebook.com/ngx.ng.ng.ng.khx.l.li.wi.b.wab",
+        avatarUrl: "/assets/Aungkan.jpg",
     },
 
 ];
