@@ -34,6 +34,13 @@ const initialMembers: Member[] = [
         linkUrl: "https://www.facebook.com/ngx.ng.ng.ng.khx.l.li.wi.b.wab",
         avatarUrl: "/assets/Aungkan.jpg",
     },
+    {
+        id: "4",
+        name: "Gapgun Herhighnvss",
+        role: "Member",
+        linkUrl: "https://www.facebook.com/gapgunx",
+        avatarUrl: "/assets/gapgun.jpg",
+    },
 
 ];
 
