@@ -20,7 +20,6 @@ const initialMembers: Member[] = [
         role: "Leader",
         linkUrl: "https://www.facebook.com/herhighnvsscore",
         avatarUrl: "/assets/theboss.jpg",
-        status: "owen ygz is my love ❤️"
     },
     {
         id: "2",

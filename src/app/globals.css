@@ -7,22 +7,22 @@
 
 :root {
   --background: #050505;
-  
+
   --foreground: #e2e8f0;
-  
+
   --primary: #4ade80;
-  
+
   --primary-foreground: #020617;
 
   --secondary: #0f172a;
-  
+
   --secondary-foreground: #f8fafc;
 
   --muted: #0f172a;
   --muted-foreground: #64748b;
 
   --card: #0a0a0a;
-  
+
   --card-foreground: #e2e8f0;
 
   --border: #1e293b;
@@ -41,13 +41,14 @@ body {
   min-height: 100vh;
 }
 
+body::before {
   content: "";
   position: fixed;
   inset: 0;
   background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.8) 100%);
   pointer-events: none;
   z-index: 1;
-
+}
 
 body::after {
   content: "";
